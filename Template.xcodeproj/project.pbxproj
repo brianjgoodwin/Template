@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		D373409D2A4BD72500E04398 /* TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373409C2A4BD72500E04398 /* TemplateApp.swift */; };
-		D373409F2A4BD72500E04398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373409E2A4BD72500E04398 /* ContentView.swift */; };
 		D37340A12A4BD72600E04398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37340A02A4BD72600E04398 /* Assets.xcassets */; };
 		D37340A52A4BD72700E04398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37340A42A4BD72700E04398 /* Preview Assets.xcassets */; };
+		D37340B22A4BD75600E04398 /* Tab2View_Big.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37340AB2A4BD75600E04398 /* Tab2View_Big.swift */; };
+		D37340B32A4BD75600E04398 /* Tab2View_iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37340AC2A4BD75600E04398 /* Tab2View_iPhone.swift */; };
+		D37340B42A4BD75600E04398 /* Tab3View_Big.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37340AD2A4BD75600E04398 /* Tab3View_Big.swift */; };
+		D37340B52A4BD75700E04398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37340AE2A4BD75600E04398 /* ContentView.swift */; };
+		D37340B62A4BD75700E04398 /* Tab1View_iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37340AF2A4BD75600E04398 /* Tab1View_iPhone.swift */; };
+		D37340B72A4BD75700E04398 /* Tab3View_iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37340B02A4BD75600E04398 /* Tab3View_iPhone.swift */; };
+		D37340B82A4BD75700E04398 /* Tab1View_Big.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37340B12A4BD75600E04398 /* Tab1View_Big.swift */; };
+		D37340BA2A4BD88200E04398 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37340B92A4BD88200E04398 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D37340992A4BD72500E04398 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D373409C2A4BD72500E04398 /* TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateApp.swift; sourceTree = "<group>"; };
-		D373409E2A4BD72500E04398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D37340A02A4BD72600E04398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D37340A22A4BD72700E04398 /* Template.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Template.entitlements; sourceTree = "<group>"; };
 		D37340A42A4BD72700E04398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D37340AB2A4BD75600E04398 /* Tab2View_Big.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2View_Big.swift; sourceTree = "<group>"; };
+		D37340AC2A4BD75600E04398 /* Tab2View_iPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2View_iPhone.swift; sourceTree = "<group>"; };
+		D37340AD2A4BD75600E04398 /* Tab3View_Big.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3View_Big.swift; sourceTree = "<group>"; };
+		D37340AE2A4BD75600E04398 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D37340AF2A4BD75600E04398 /* Tab1View_iPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1View_iPhone.swift; sourceTree = "<group>"; };
+		D37340B02A4BD75600E04398 /* Tab3View_iPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3View_iPhone.swift; sourceTree = "<group>"; };
+		D37340B12A4BD75600E04398 /* Tab1View_Big.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1View_Big.swift; sourceTree = "<group>"; };
+		D37340B92A4BD88200E04398 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,15 @@
 		D373409B2A4BD72500E04398 /* Template */ = {
 			isa = PBXGroup;
 			children = (
+				D37340AE2A4BD75600E04398 /* ContentView.swift */,
+				D37340B92A4BD88200E04398 /* HomeView.swift */,
+				D37340B12A4BD75600E04398 /* Tab1View_Big.swift */,
+				D37340AF2A4BD75600E04398 /* Tab1View_iPhone.swift */,
+				D37340AB2A4BD75600E04398 /* Tab2View_Big.swift */,
+				D37340AC2A4BD75600E04398 /* Tab2View_iPhone.swift */,
+				D37340AD2A4BD75600E04398 /* Tab3View_Big.swift */,
+				D37340B02A4BD75600E04398 /* Tab3View_iPhone.swift */,
 				D373409C2A4BD72500E04398 /* TemplateApp.swift */,
-				D373409E2A4BD72500E04398 /* ContentView.swift */,
 				D37340A02A4BD72600E04398 /* Assets.xcassets */,
 				D37340A22A4BD72700E04398 /* Template.entitlements */,
 				D37340A32A4BD72700E04398 /* Preview Content */,
@@ -139,8 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D373409F2A4BD72500E04398 /* ContentView.swift in Sources */,
+				D37340B32A4BD75600E04398 /* Tab2View_iPhone.swift in Sources */,
+				D37340B82A4BD75700E04398 /* Tab1View_Big.swift in Sources */,
+				D37340BA2A4BD88200E04398 /* HomeView.swift in Sources */,
+				D37340B72A4BD75700E04398 /* Tab3View_iPhone.swift in Sources */,
+				D37340B62A4BD75700E04398 /* Tab1View_iPhone.swift in Sources */,
+				D37340B52A4BD75700E04398 /* ContentView.swift in Sources */,
+				D37340B22A4BD75600E04398 /* Tab2View_Big.swift in Sources */,
 				D373409D2A4BD72500E04398 /* TemplateApp.swift in Sources */,
+				D37340B42A4BD75600E04398 /* Tab3View_Big.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
