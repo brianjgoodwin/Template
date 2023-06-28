@@ -32,7 +32,7 @@ struct ContentView: View {
                         
                     }
                     .listStyle(SidebarListStyle())
-                    .navigationTitle("Journal Prompts")
+                    .navigationTitle("Template")
                     
                 } // end iPad/macOS-size 'if'
                 
